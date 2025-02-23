@@ -7,6 +7,7 @@ $themeCssName='';
 $ColorScheme = '#ff5e00';
 $themeColor = strtolower($ColorScheme);
 
+
 $scss = new Compiler();
 $scss->setFormatter('Leafo\ScssPhp\Formatter\Nested');
 $scss->addImportPath('sass');
